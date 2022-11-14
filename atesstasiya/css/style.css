@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#sky{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 22px;
+    font-family: system-ui;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#sky .container .header .logo{
+    font-size: 25px;
+}
+#sky .container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+#sky .container .header .list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+#sky .container .header .list .item{
+    margin: 3px 10px;
+}
+#sky .container .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sky .container .main h2{
+    font-weight: 500;
+}
